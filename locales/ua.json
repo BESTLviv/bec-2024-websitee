@@ -1,0 +1,78 @@
+{
+    "nav": {
+      "home": "Головна",
+      "partners": "Партнери",
+      "organizers": "Організатори"
+    },
+    "date": "25 жовтня-29 жовтня",
+    "about-event": {
+      "title": "ПРО ІВЕНТ",
+      "text1": "Це змагання, що дають можливість використати набуті знання та навички для розв'язання актуальних проблем.",
+      "text2": "Суть змагань — запропонувати інноваційне рішення в одній з двох категорій: Case Study (CS) або Team Design (TD)."
+    },
+    "goals-event": {
+      "title": "ЦІЛЬ",
+      "text1": "Основною метою події є створення середовища, що сприятиме розвитку та застосуванню навичок студентів.",
+      "text2": "Учасники будуть залучені до командної роботи для креативного розв'язання реальних проблем."
+    },
+    "mission-vision": {
+      "main-title": "МІСІЯ & ВІЗІЯ",
+      "title1": "МІСІЯ",
+      "title2": "ВІЗІЯ",
+      "text1": "Розвиток студентів-інженерів",
+      "text2": "Реалізація інженерного потенціалу України"
+    },
+    "categories": {
+      "main-title": "КАТЕГОРІЇ",
+      "title1": "CASE STUDY",
+      "title2": "TEAM DESIGN",
+      "text1": "Категорія, у якій потрібно запропонувати теоретичне розв'язання заданої інженерної, економічної, виробничої, соціальної чи маркетингової проблеми.",
+      "text2": "Категорія, у якій від учасників вимагається практичне розв'язання актуальної задачі в області IoT, embedded, електроніки, радіотехніки чи механіки.",
+      "example": "Приклад: ",
+      "example1": "Повоєнна реставрація Херсонеса Таврійського з урахуванням сторонніх аспектів, як захисту пам’ятки від сповзання ґрунту чи затоплення.",
+      "example2": "Розробка автономного пристрою для моніторингу життєвих показників солдата в реальному часі з функцією передачі даних до медичного пункту."
+    },
+  "bec-you": {
+    "main-title": "WHY YOU SHOULD CHOOSE THE BEC IF YOU ARE",
+    "title1": "A COMPANY",
+    "title2": "STUDENT",
+    "text1": "Partnership with the BEC will be a great opportunity to contribute to youth development, find promising employees, and show that you are open to new ideas.",
+    "text2": "Participation in the competition is a great chance to make new acquaintances, gain and improve skills, obtain complex experience and create unforgettable memories.",
+    "sub-text": "Find out more",
+    "company": {
+      "title1": "INCREASE YOUR BRAND AWARENESS",
+      "text1": "Through cooperation with BEC, you can establish connections with students and position yourself as open to innovation. This way, your company will become more popular among the youth.",
+      "title2": "SEE PROGRESSIVE YOUTH AT WORK",
+      "text2": "Participants in the engineering competitions are talented students who are interested in new things and are not afraid of change — a great opportunity to find potential employees.",
+      "title3": "TALK INFORMALLY WITH STUDENTS",
+      "text3": "On the closing day of the competition, there will be a networking event — a great opportunity to exchange ideas, experiences, or simply have a conversation with participants over a cup of coffee.",
+      "title4": "ENGAGE IN VOLUNTEERING",
+      "text4": "By helping us, you automatically support the Armed Forces of Ukraine — we donate 10% of all funds received to the needs of the army. Thus, together we bring victory one step closer!"
+    },
+    "student": {
+      "title1": "REAL EXPERIENCE",
+      "text1": "We have selected only relevant tasks for the competition so that, in addition to theory, you can gain valuable practical experience in various fields of engineering.",
+      "title2": "IMPROVED SOFT SKILLS",
+      "text2": "The BEC is a competition that will help you learn to work in a team and manage your time properly. We will help you overcome the fears of challenges and unsuccessful self-presentations.",
+      "title3": "CAREER DEVELOPMENT",
+      "text3": "Trainings and tasks from companies, networking, mentorship from experienced employees, solving real problems — all of this serves as an excellent impetus to start or continue your career path.",
+      "title4": "NEW ACQUAINTANCES",
+      "text4": "During the five days of the event, you will be able not only to communicate with your teammates, but also to make friends with other people — the rest of the participants or company representatives."
+    }
+  },
+    "photos": "НАШІ ФОТО",
+    "partners": "ПАРТНЕРИ",
+    "organizers": {
+      "main-title": "ОРГАНІЗАТОРИ",
+      "title": "BEST LVIV",
+      "text1": "Івент реалізує волонтерська організація BEST Lviv, що є частиною Ради студентів технічних університетів Європи (Board of European Students of Technology).",
+      "text2": "Наш осередок був сформований у 2002 році при Національному університеті \"Львівська політехніка\". Уже понад двадцять років BEST є дружньою спільнотою студентів, які зацікавлені в розвитку як себе, так і суспільства загалом. Усі івенти спрямовані на допомогу юнацтву на початку кар’єрного росту, розвиток їхніх навичок та об’єднанню активної молоді."
+    },
+    "core-team": [
+      {
+        "position": "",
+        "name": ""
+      }
+    ]
+  }
+  
