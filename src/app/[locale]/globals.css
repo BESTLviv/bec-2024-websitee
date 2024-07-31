@@ -173,12 +173,14 @@ p{
   margin-bottom: calc(50px + 90 *  (100vw - 320px) / 1120);
   padding-left: calc(25px + 25 *  (100vw - 320px) / 1120);
   padding-right: calc(25px + 25 *  (100vw - 320px) / 1120);
+
   img{
     width: calc(363px +(100vw - 320px) / 1120);
     height: calc(394px +(100vw - 320px) / 1120);
   }
   div{
-    /* row-gap: 20px; */
+
+    align-items: stretch;
   }
   span{
     height: calc(40px + (100vw - 320px) / 1120);
@@ -189,14 +191,17 @@ p{
     padding-right: calc(23px + 18 *  (100vw - 320px) / 1120);
     padding-top: calc(12px + 22 *  (100vw - 320px) / 1120);
     padding-bottom: calc(12px + 22 *  (100vw - 320px) / 1120);
-    width: calc(502px +(100vw - 320px) / 1120);
-    height: calc(394px +(100vw - 320px) / 1120);
+    /* width: calc(502px +(100vw - 320px) / 1120);
+    height: calc(394px +(100vw - 320px) / 1120); */
+
+
+
     h2{
       font-size: calc(22px + 16 *  (100vw - 320px) / 1120);
       margin-bottom: calc(8px + 2 *  (100vw - 320px) / 1120);
     }
     p{
-      margin-bottom: calc(14px + 6 *  (100vw - 320px) / 1120);
+      /* margin-bottom: calc(14px + 6 *  (100vw - 320px) / 1120); */
     }
     span{
       font-weight: bold;
@@ -235,7 +240,7 @@ p{
     
   }
   .categories span{
-    height: 15px
+    height: 18px
   }
 }
 @media (min-width: 400px) {
@@ -254,7 +259,7 @@ p{
     width: calc(156px +  (100vw - 320px) / 1120);
   }
   .categories span{
-    height: 20px
+    height: 24px
   }
 }
 
@@ -264,7 +269,7 @@ p{
     width: calc(216px +  (100vw - 320px) / 1120);
   }
   .categories span{
-    height: 20px
+    height: 35px
   }
 }
 
