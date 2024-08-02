@@ -37,7 +37,7 @@ const config: Config = {
         customGray: 'rgb(200, 200, 200)',
         link: 'rgb(204, 204, 204)',
         linkModal: 'rgba(50, 50, 50, 1)',
-
+        modalColor: "rgba(40, 40, 40, 1)",
         customOrange: 'rgb(245, 160, 32)',
         customBrown: 'rgb(67, 44, 9)',
 

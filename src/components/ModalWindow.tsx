@@ -10,7 +10,7 @@ const ModalWindow: React.FC<ModalWindowProps> = ({items, handleClose}) => {
 
     return (
         <div className='w-full h-full fixed inset-0 z-50 bg-black bg-opacity-50 backdrop-blur-sm '>
-            <div className="modal-window relative z-10 w-[90%] h-[80%] lg:h-auto bg-side">
+            <div className="modal-window relative z-10 w-[90%] max-h-[80%] lg:h-auto bg-side  shadow-lg shadow-modalColor">
                 <button onClick={handleClose} className="cross"></button>
                 <div className="dialog-container relative flex flex-col ">
                     {items.map((item, index) => (

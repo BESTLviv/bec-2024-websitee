@@ -80,10 +80,14 @@ p{
  }
 
 .hero h2{
-  font-size: calc(32px + 58 * (100vw - 320px) / 1120);
+  font-size: calc(23px + 67 * (100vw - 320px) / 1120);
   font-family: "Aviano";
 
   font-weight: 1000;
+
+}
+.hero h2:nth-child(2){
+  margin-left: calc(15px + 50 * (100vw - 320px) / 1120);
 
 }
 .hero h3{
@@ -325,7 +329,7 @@ p{
   background-color: rgba(40, 40, 40, 1);
 
   overflow: hidden;
-  overflow-y: scroll;
+  
   position: absolute;
   top: 50%;
   left: 50%;
@@ -412,11 +416,16 @@ p{
 
 @media (max-width: 1024px) {
   .modal-item{
+    
     position: relative;
-    overflow: hidden;
-    overflow-y: scroll;
+
     padding-bottom: calc(22px + (100vw - 320px) / 1120);
     padding-top: calc(22px + (100vw - 320px) / 1120);
+  }
+  .modal-window{
+
+    overflow-y: scroll;
+
   }
 
   .modal-item:not(:last-child)::before{

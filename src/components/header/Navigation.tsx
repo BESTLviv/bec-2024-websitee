@@ -19,7 +19,7 @@ export default function Navigation() {
 
 
     let modalMenuContent = (
-        <div className= "fixed flex opacity-90 items-center justify-center z-10 bg-customOrange top-0 right-0 w-[40%] h-full transition-transform transform " >     
+        <div className= "fixed flex opacity-90 items-center justify-center z-30 bg-customOrange top-0 right-0 w-[40%] h-screen transition-transform transform " >     
             <div className="flex flex-col items-center relative z-10 justify-center space-y-4 py-10 font-daysOne text-black">
                 <Links/>
             </div>
@@ -37,7 +37,7 @@ export default function Navigation() {
                 </div>
             )}
             {isMobile && !isMenuActive && (
-                <div onClick={handleOpenMenu}  className="flex-shrink-0 w-7 inline-flex flex-col items-center space-y-[5px]">
+                <div onClick={handleOpenMenu}  className="relative  z-50  flex-shrink-0 w-7 inline-flex flex-col items-center space-y-[5px]">
                     <span className="block w-7 h-[3px] bg-white"></span>
                     <span className="block w-7 h-[3px] bg-white"></span>
                     <span className="block w-7 h-[3px] bg-white"></span>
@@ -47,13 +47,17 @@ export default function Navigation() {
     )
 
     return (
-            <nav className={`fixed w-full navigation justify-between z-30 flex items-center flex-shrink-0 filter backdrop-blur-sm`}>
+        <>
+        <nav className={`fixed w-full navigation justify-between z-30 flex items-center flex-shrink-0 filter backdrop-blur-sm`}>
                 <div className="shrink-0 grow-0 w-[120px] ">
                     <Image src={logo} alt="Logo" />
                 </div>
                 {options}
                 {isMenuActive && modalMenuContent}
             </nav>
+             
+        </>
+            
     )
 }
 
