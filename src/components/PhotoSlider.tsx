@@ -62,7 +62,9 @@ const PhotoSlider = () => {
 
   return (
     <div className=' relative'>
-    <span className=' bg-linesHome2M absolute  top-[-160%] right-[-90%] bg-no-repeat h-[680px] w-[680px] min-[1024px]:opacity-0 min-[390px]:top-[-130%]  min-[390px]:right-[-80%] min-[510px]:top-[-120%]  min-[510px]:right-[-60%] min-[650px]:scale-[1.2]  min-[650px]:top-[-100%]  min-[650px]:right-[-50%]  min-[786px]:top-[-90%]  min-[786px]:right-[-40%] transform '></span>
+    <span className=' bg-linesHome2M absolute  top-[-160%] right-[-90%] bg-no-repeat h-[680px] w-[680px]  min-[390px]:top-[-130%]  min-[390px]:right-[-80%] min-[510px]:top-[-120%]  min-[510px]:right-[-60%] min-[650px]:scale-[1.2]  min-[650px]:top-[-100%]  min-[650px]:right-[-50%]  min-[786px]:top-[-90%]  min-[786px]:right-[-40%]
+     min-[1024px]:scale-[1.7] min-[1024px]:scale-x-[1.7] min-[1024px]:top-[-74%]  min-[1024px]:right-[-30%] min-[1100px]:right-[-25%] min-[1300px]:scale-[2] min-[1300px]:top-[-60%] min-[1500px]:scale-x-[2.7] min-[1800px]:top-[-40%] min-[1800px]:scale-[2.5] min-[1800px]:scale-x-[3.2] min-[2220px]:scale-x-[4.5] transform '></span>
+    
     <Title>{t('photos')}</Title>
     <Slider className='slider overflow-hidden' {...settings}>
       {images.map((image, index) => (

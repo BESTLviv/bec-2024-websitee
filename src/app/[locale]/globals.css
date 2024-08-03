@@ -50,6 +50,24 @@ p{
   display: block;
 }
 
+body::-webkit-scrollbar {
+  width: 18px; /* Ширина скролл бару */
+}
+
+body::-webkit-scrollbar-track {
+  background: rgb(66, 66, 66); /* Колір фону треку */
+  border-left: 4px solid transparent; /* Відстань між треком і повзунком */
+  border-right: 4px solid transparent;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: rgb(123, 123, 123); /* Колір "повзунка" */
+  border: 3px solid rgb(66, 66, 66); /* Відстань між повзунком і треком */
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Колір повзунка при наведенні */
+}
 
 
 /*------------------------------------------------------Header--------------------------------------------------------------- */
@@ -121,13 +139,13 @@ p{
   background: rgba(47, 47, 47, 0.6);
   padding-left: calc(15px + 35 * (100vw - 320px) / 1120);
   padding-right: calc(15px + 35 * (100vw - 320px) / 1120);
-  padding-top: calc(16px + 40 * (100vw - 320px) / 1120);
-  padding-bottom: calc(16px + 40 *  (100vw - 320px) / 1120);
+  padding-top: calc(16px + 30 * (100vw - 320px) / 1120);
+  padding-bottom: calc(16px + 30 *  (100vw - 320px) / 1120);
   margin-bottom: calc(14px + 12 *  (100vw - 320px) / 1120);
   gap: calc(95px +  (100vw - 320px) / 1120);
 
   p{
-    margin-bottom: calc(14px + 6 *  (100vw - 320px) / 1120);
+    margin-bottom: calc(6px + 4 *  (100vw - 320px) / 1120);
   }
   img{
  
@@ -137,6 +155,7 @@ p{
   h2{
     font-family: "DaysOne";
     font-size: calc(22px + 10 * (100vw - 320px) / 1120);
+    margin-bottom: calc(10px + 6 * (100vw - 320px) / 1120);
   }
 }
 
@@ -274,6 +293,31 @@ p{
   }
   .categories span{
     height: 35px
+  }
+}
+
+@media (min-width: 1024px) {
+  .circle{
+    height: calc(140px +  (100vw - 320px) / 1120);
+    width: calc(146px +  (100vw - 320px) / 1120);
+  }
+  .categories span{
+    width: 65px
+  }
+}
+@media (min-width: 1244px) {
+  .circle{
+    height: calc(230px +  (100vw - 320px) / 1120);
+    width: calc(236px +  (100vw - 320px) / 1120);
+  }
+  .categories span{
+    width: 120px
+  }
+}
+@media (min-width: 1400px) {
+  .circle{
+    height: calc(240px +  (100vw - 320px) / 1120);
+    width: calc(246px +  (100vw - 320px) / 1120);
   }
 }
 
