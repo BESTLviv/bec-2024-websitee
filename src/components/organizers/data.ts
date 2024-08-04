@@ -1,71 +1,53 @@
 import SlideProps from "@/models/team-slider";
+import { StaticImageData } from "next/image";
+import slide1 from "/public/Руля.jpg"
+import slide2 from '/public/Я.jpg';
+import slide3 from '/public/Хритос.jpg';
+import slide4 from '/public/Аня.jpg';
+import slide5 from '/public/Катя.jpg';
+import slide6 from '/public/Бодя.jpg';
+import slide7 from '/public/Мішаня.jpg';
+import slide8 from '/public/Ліля.jpg';
+import slide9 from '/public/Влад.jpg';
+import slide10 from '/public/Віка.jpg';
+import slide11 from '/public/Богдан.jpg';
 
-import slide1 from '/public/slide1.png';
-import slide2 from '/public/slide2.png';
-import slide3 from '/public/slide3.png';
-import slide4 from '/public/slide4.png';
-import slide5 from '/public/slide5.png';
-import slide6 from '/public/slide6.png';
-import slide7 from '/public/slide7.png';
-import slide8 from '/public/slide8.png';
 
+const Slides = [
+  {
+    img: slide1
+  },
+  {
+    img: slide2
+  },
+  {
+    img: slide3
+  },
+  {
+    img: slide4
+  },
+  {
+    img: slide5
+  },
+  {
+    img: slide6
+  },
+  {
+    img: slide7
+  },
+  {
+    img: slide8
+  },
+  {
+    img: slide9
+  },
+  {
+    img: slide10
+  },
+  {
+    img: slide11
+  },
 
-const Slides: SlideProps[] = [
-  {
-    img: slide1,
-    position: "position1",
-    name: "name1"
-  },
-  {
-    img: slide1,
-    position: "position2",
-    name: "name1"
-  },
-  {
-    img: slide1,
-    position: "position3",
-    name: "name1"
-  },
-  {
-    img: slide1,
-    position: "position4",
-    name: "name1"
-  },
-  {
-    img: slide1,
-    position: "position5",
-    name: "name1"
-  },
-  {
-    img: slide1,
-    position: "position6",
-    name: "name1"
-  },
-  {
-    img: slide1,
-    position: "position7",
-    name: "name1"
-  },
-  {
-    img: slide1,
-    position: "position8",
-    name: "name1"
-  },
-  {
-    img: slide1,
-    position: "position9",
-    name: "name1"
-  },
-  {
-    img: slide1,
-    position: "position10",
-    name: "name1"
-  },
-  {
-    img: slide1,
-    position: "position11",
-    name: "name1"
-  },
 
 
 ];

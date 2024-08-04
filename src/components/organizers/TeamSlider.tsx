@@ -73,7 +73,7 @@ const TeamSlider = () => {
     <div className='slider-container'>
        <Slider {...settings}>
           {Slides.map((item, index) => (
-            <Slide key={index} img={item.img} position={t(`position${index+1}`)} name={t(`name${index+1}`)} className={index === imageIndex ? "slide activeSlide" : "slide"}/>
+            <Slide key={index} img={Slides[index].img} position={t(`position${index+1}`)} name={t(`name${index+1}`)} className={index === imageIndex ? "slide activeSlide" : "slide"}/>
           ))}
         </Slider>
     </div>
