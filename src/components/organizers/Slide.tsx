@@ -8,7 +8,7 @@ interface SlideComponentProps extends SlideProps {
 const Slide: React.FC<SlideComponentProps> = ({img, position, name, className}) => {
     return (
         <div className={className}>
-            <Image priority src={img} alt="img"/>
+            <Image className=" shrink-0" priority src={img} alt="img"/>
             <h2>{position}</h2>
             <span></span>
             <p>{name}</p>
