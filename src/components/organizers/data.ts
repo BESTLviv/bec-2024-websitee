@@ -1,8 +1,6 @@
-import SlideProps from "@/models/team-slider";
-import { StaticImageData } from "next/image";
 import slide1 from "/public/Руля.jpg"
-import slide2 from '/public/Я.jpg';
-import slide3 from '/public/Хритос.jpg';
+import slide2 from '/public/Хритос.jpg';
+import slide3 from '/public/Я.jpg';
 import slide4 from '/public/Аня.jpg';
 import slide5 from '/public/Катя.jpg';
 import slide6 from '/public/Бодя.jpg';
@@ -47,9 +45,6 @@ const Slides = [
   {
     img: slide11
   },
-
-
-
 ];
 
 export default Slides;
