@@ -17,7 +17,7 @@ interface ArrowProps {
 }
 
 const TeamSlider = () => {
-  const  t  = useTranslations('');
+  const  t  = useTranslations('core-team');
 
   const CustomDots: React.FC<{dots: React.ReactNode}> = ({dots}) => {
     return (
@@ -58,6 +58,7 @@ const TeamSlider = () => {
     beforeChange: (current: any, next: any) => setImageIndex(next),
     responsive: [
       {
+        
         breakpoint: 1024, 
         settings: {
           slidesToShow: 1,
@@ -72,7 +73,7 @@ const TeamSlider = () => {
     <div className='slider-container'>
        <Slider {...settings}>
           {Slides.map((item, index) => (
-            <Slide key={index} img={item.img} position={"s"} name={"s"} className={index === imageIndex ? "slide activeSlide" : "slide"}/>
+            <Slide key={index} img={item.img} position={t(`position${index+1}`)} name={t(`name${index+1}`)} className={index === imageIndex ? "slide activeSlide" : "slide"}/>
           ))}
         </Slider>
     </div>

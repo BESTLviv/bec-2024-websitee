@@ -18,52 +18,52 @@ const Slides: SlideProps[] = [
   },
   {
     img: slide1,
-    position: "position1",
+    position: "position2",
     name: "name1"
   },
   {
     img: slide1,
-    position: "position1",
+    position: "position3",
     name: "name1"
   },
   {
     img: slide1,
-    position: "position1",
+    position: "position4",
     name: "name1"
   },
   {
     img: slide1,
-    position: "position1",
+    position: "position5",
     name: "name1"
   },
   {
     img: slide1,
-    position: "position1",
+    position: "position6",
     name: "name1"
   },
   {
     img: slide1,
-    position: "position1",
+    position: "position7",
     name: "name1"
   },
   {
     img: slide1,
-    position: "position1",
+    position: "position8",
     name: "name1"
   },
   {
     img: slide1,
-    position: "position1",
+    position: "position9",
     name: "name1"
   },
   {
     img: slide1,
-    position: "position1",
+    position: "position10",
     name: "name1"
   },
   {
     img: slide1,
-    position: "position1",
+    position: "position11",
     name: "name1"
   },
 

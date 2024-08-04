@@ -102,7 +102,11 @@ body::-webkit-scrollbar-thumb:hover {
   font-family: "Aviano";
 
   font-weight: 1000;
-
+}
+@media(min-width: 375px) {
+  .hero h2{
+    font-size: calc(28px + 62 * (100vw - 320px) / 1120);
+  }
 }
 .hero h2:nth-child(2){
   margin-left: calc(15px + 50 * (100vw - 320px) / 1120);

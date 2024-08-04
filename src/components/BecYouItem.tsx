@@ -21,9 +21,9 @@ const BecYouItem: React.FC<BecYouItemProps> = ({ title, text1, subText, more }) 
             <section className=" bec-you-item flex items-center relative z-10 text-white filter backdrop-blur-[2px]">
             <div>
                 <h2 className="text-title font-daysOne">{title}</h2>
-                <div className="font-rubik">
+                <div className="font-rubik ">
                     <p>{text1}</p>
-                    <button onClick={handleOpen}>{subText}</button>
+                    <button className="transform hover:scale-[1.1] transition-transform duration-500" onClick={handleOpen}>{subText}</button>
                 </div>
             </div>
             </section>

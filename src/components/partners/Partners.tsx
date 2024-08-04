@@ -12,7 +12,7 @@ export default function Partners() {
             <section>
                 <div className="partners-container flex flex-wrap justify-center filter backdrop-blur-[2px]">
                     {partners.map((partner, index) => (
-                        <div className="flex justify-center relative items-center border bg-black border-white" key={index}><Image className=" transform scale-[0.7]" src={partner} fill alt={`${partner}`}/></div>
+                        <div className="flex justify-center relative items-center border bg-black border-white transform hover:scale-[1.1] transition-transform duration-500" key={index}><Image className=" transform scale-[0.7]" src={partner} fill alt={`${partner}`}/></div>
                     ))}
                 </div>
             </section>

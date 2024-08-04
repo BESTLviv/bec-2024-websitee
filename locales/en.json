@@ -69,12 +69,32 @@
       "text1": "The event is organized by the volunteer organization BEST Lviv, which is part of the Board of European Students of Technology.",
       "text2": "Our LBG (Local BEST Group) was formed in 2002 at Lviv Polytechnic National University. For more than twenty years, BEST has been a friendly community of students interested in developing both themselves and society as a whole. All events are aimed at helping young people at the beginning of their career, developing their skills and uniting active youth."
     },
-    "core-team": [
-      {
-        "position": "",
-        "name": ""
-      }
-    ]
+    "core-team": {
+      "position1": "1",
+      "name1": "1",
+      "position2": "2",
+      "name2": "2",
+      "position3": "3",
+      "name3": "3",
+      "position4": "4",
+      "name4": "4",
+      "position5": "5",
+      "name5": "5",
+      "position6": "6",
+      "name6": "6",
+      "position7": "7",
+      "name7": "7",
+      "position8": "8",
+      "name8": "8",
+      "position9": "9",
+      "name9": "9",
+      "position10": "10",
+      "name10": "10",
+      "position11": "11",
+      "name11": "11",
+      "position12": "12",
+      "name12": "12"
+    }
   
   
   
