@@ -77,7 +77,9 @@ body::-webkit-scrollbar-thumb:hover {
   padding-bottom: calc(20px + (100vw - 320px) / 1120);
   padding-left: calc(30.5px + (100vw - 320px) / 1120);
   padding-right: calc(30.5px + (100vw - 320px) / 1120);
+  
 }
+
 .options-item{
   font-family: Rubik;
     font-size: calc(16px + 4 * (100vw - 320px) / 1120);
@@ -126,11 +128,15 @@ body::-webkit-scrollbar-thumb:hover {
     
   } 
 
+  @media(max-width: 375px){
+    .navigation div img{
+      width: 100px;
+      height: 45px;
+    }
+  }
+
 /* --------------------------------------------------AboutEvent----------------------------------------------------------------------------- */
 
-.lines1{
-  
-}
 
 .about-event{
   padding-top: calc(50px + 50 * (100vw - 320px) / 1120);

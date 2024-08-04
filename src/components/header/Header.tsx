@@ -1,7 +1,6 @@
 import fullScreen from "/public/full-screen.png"
 import Image from "next/image"
 import {useTranslations} from 'next-intl';
-import Navigation from "./Navigation";
 
 export default function Header() {
     const  t  = useTranslations('');

@@ -5,22 +5,47 @@ const BurgerMenu:React.FC<{ isMenuActive: boolean, handleCloseMenu: () => void }
     const modalMenuRef = useRef<HTMLDivElement>(null);
 
     useEffect(() => {
-        function handleClickOutside(event: MouseEvent) {
-            if (modalMenuRef.current && !modalMenuRef.current.contains(event.target as Node)) {
-                handleCloseMenu();
-            }
-        }
-
-        if (isMenuActive) {
-            document.addEventListener("mousedown", handleClickOutside);
-        } else {
-            document.removeEventListener("mousedown", handleClickOutside);
-        }
-
-        return () => {
-            document.removeEventListener("mousedown", handleClickOutside);
-        };
-    }, [isMenuActive, handleCloseMenu]);
+      function handleClickOutside(event: MouseEvent) {
+          if (modalMenuRef.current && !modalMenuRef.current.contains(event.target as Node)) {
+              handleCloseMenu();
+          }
+      }
+  
+      let startX: number | null = null;
+  
+      function handleTouchStart(event: TouchEvent) {
+          startX = event.touches[0].clientX;
+      }
+  
+      function handleTouchEnd(event: TouchEvent) {
+          if (startX === null) return;
+  
+          const endX = event.changedTouches[0].clientX;
+          const diffX = endX - startX;
+  
+          if (diffX > 50) {
+              handleCloseMenu();
+          }
+  
+          startX = null; 
+      }
+  
+      if (isMenuActive) {
+          document.addEventListener("mousedown", handleClickOutside);
+          document.addEventListener("touchstart", handleTouchStart);
+          document.addEventListener("touchend", handleTouchEnd);
+      } else {
+          document.removeEventListener("mousedown", handleClickOutside);
+          document.removeEventListener("touchstart", handleTouchStart);
+          document.removeEventListener("touchend", handleTouchEnd);
+      }
+  
+      return () => {
+          document.removeEventListener("mousedown", handleClickOutside);
+          document.removeEventListener("touchstart", handleTouchStart);
+          document.removeEventListener("touchend", handleTouchEnd);
+      };
+  }, [isMenuActive, handleCloseMenu]);
 
 
     return (
