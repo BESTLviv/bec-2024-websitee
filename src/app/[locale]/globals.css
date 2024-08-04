@@ -693,13 +693,21 @@ footer{
 }
 
 .slide  {
-  height: calc(280px + 147 * (100vw - 320px) / 1120);
+  height: calc(290px + 157 * (100vw - 320px) / 1120);
   width: calc(220px + 127 * (100vw - 320px) / 1120);
   background-color: black;
   transform: scale(0.9);
   margin: 0 auto;
   transition: opacity 500ms, transform 500ms; 
   opacity: 0;
+}
+
+@media (min-width: 1700px) {
+  .slide  {
+    height: calc(320px + 187 * (100vw - 320px) / 1120);
+    width: calc(230px + 137 * (100vw - 320px) / 1120);
+
+  }
 }
 
 .slick-active .slide {

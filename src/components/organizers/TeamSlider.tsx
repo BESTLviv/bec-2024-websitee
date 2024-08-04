@@ -29,7 +29,7 @@ const TeamSlider = () => {
 
   const NextArrow: React.FC<ArrowProps> = ({ onClick }) => {
     return (
-      <div className="arrow next" onClick={onClick}>
+      <div className="arrow next top-[50%] transform translate-y-[-50%] hover:scale-[1.2] transition-transform duration-500" onClick={onClick}>
          <Image src={arrowRight} alt='right'/>
       </div>
     );
@@ -37,7 +37,7 @@ const TeamSlider = () => {
 
   const PrevArrow: React.FC<ArrowProps> = ({ onClick }) => {
     return (
-      <div className="arrow prev" onClick={onClick}>
+      <div className="arrow prev top-[50%] transform translate-y-[-50%] hover:scale-[1.2] transition-transform duration-500" onClick={onClick}>
          <Image src={arrowLeft} alt='left'/>
       </div>
     );
