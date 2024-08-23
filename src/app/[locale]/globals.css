@@ -81,7 +81,7 @@ body::-webkit-scrollbar-thumb:hover {
 }
 
 .options-item{
-  font-family: Rubik;
+ 
     font-size: calc(16px + 4 * (100vw - 320px) / 1120);
     margin-right: calc(70px + 20 * (100vw - 320px) / 1120);
     @apply pointer-events-auto transition-transform transform-gpu duration-[400ms] hover:scale-[1.2] hover:text-white text-linkModal lg:text-link;
@@ -133,6 +133,13 @@ body::-webkit-scrollbar-thumb:hover {
       width: 100px;
       height: 45px;
     }
+  }
+
+  .menu-links a{
+    color: rgba(50, 50, 50, 1);
+  }
+  .menu-links .active{
+    color: rgba(0, 0, 0, 1);  
   }
 
 /* --------------------------------------------------AboutEvent----------------------------------------------------------------------------- */

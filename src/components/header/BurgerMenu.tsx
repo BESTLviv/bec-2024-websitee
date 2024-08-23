@@ -58,7 +58,7 @@ const BurgerMenu:React.FC<{ isMenuActive: boolean, handleCloseMenu: () => void }
           }`}
         >
           <span className="block bg-customOrange w-[100%] h-[9999px] absolute "></span>
-          <div className="flex flex-col items-center relative z-10 justify-center space-y-4 py-10 font-daysOne text-black">
+          <div className=" menu-links flex flex-col items-center relative z-10 justify-center space-y-4 py-10 font-daysOne text-black">
             <Links />
           </div>
         </div>

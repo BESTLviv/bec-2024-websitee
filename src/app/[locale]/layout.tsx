@@ -29,7 +29,6 @@ export default async function LocaleLayout({
     <html lang={locale}>
       <body>
         <NextIntlClientProvider messages={messages}>
-          {/* <audio src="/бек.mp3" loop hidden autoPlay></audio> */}
           <div className=' w-full overflow-hidden bg-side text-white'>
             <Navigation/>
               {children}
