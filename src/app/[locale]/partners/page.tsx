@@ -5,8 +5,9 @@ import Image from "next/image";
 const PartnersPage: React.FC = () => {
 
   return (
-    <div className=' relative  w-full overflow-hidden bg-side text-white'>
     
+    <div className=' relative  w-full overflow-hidden bg-side text-white'>
+       <h1 className="hidden">BEC 2024 Інженерні змагання партнери</h1>
       <Image className=" absolute max-[1023px]:opacity-0 lg:right-[-19%] lg:bottom-[1%] min-[1540px]:right-[-25%] min-[1540px]:bottom-[1%] h-full w-full" src={lines} alt="background"/>
       <Image className=" absolute min-[1023px]:opacity-0 max-[619px]:right-[-5%] max-[619px]:bottom-[8%] max-[1023px]:right-[-15%] max-[1023px]:bottom-[2%] h-full w-full" src={linesMobile} alt="background"/>
       <Partners/>

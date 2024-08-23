@@ -8,8 +8,8 @@ import Footer from "@/components/Footer";
 
 
 export const metadata: Metadata = {
-  title: "BEC 2024",
-  description: "BEST Engineering Competitions. Інженерні змагання повертаються. Спробуй себе в одній з двох запропонованих категорій і покажи за ким майбутнє!",
+  title: "BEC 2024 — Best Engineering Competitions",
+  description: "BEST Engineering Competitions 2024. Інженерні змагання повертаються. Спробуй себе в одній з двох запропонованих категорій і покажи за ким майбутнє!",
 };
 
 import {NextIntlClientProvider} from 'next-intl';
@@ -30,6 +30,7 @@ export default async function LocaleLayout({
       <body>
         <NextIntlClientProvider messages={messages}>
           <div className=' w-full overflow-hidden bg-side text-white'>
+           
             <Navigation/>
               {children}
             <Footer/>

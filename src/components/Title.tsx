@@ -4,7 +4,7 @@ interface TitleProps {
 }
 
 const Title: React.FC<TitleProps> = ({ children }) => {
-    return <h1 className="title text-center relative z-10 ">{children}</h1>;
+    return <h2 className="title text-center relative z-10 ">{children}</h2>;
 };
 
 export default Title;
