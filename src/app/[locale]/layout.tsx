@@ -8,7 +8,7 @@ import Footer from "@/components/Footer";
 
 
 export const metadata: Metadata = {
-  title: "BEC'2024",
+  title: "BEC 2024",
   description: "BEST Engineering Competitions. Інженерні змагання повертаються. Спробуй себе в одній з двох запропонованих категорій і покажи за ким майбутнє!",
 };
 
