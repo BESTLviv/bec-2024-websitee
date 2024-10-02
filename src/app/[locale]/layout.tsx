@@ -10,6 +10,7 @@ import Footer from "@/components/Footer";
 export const metadata: Metadata = {
   title: "BEC 2024 — BEST Engineering Competitions",
   description: "BEST Engineering Competitions 2024. Інженерні змагання повертаються. Спробуй себе в одній з двох запропонованих категорій і покажи за ким майбутнє!",
+
 };
 
 import {NextIntlClientProvider} from 'next-intl';
@@ -27,6 +28,10 @@ export default async function LocaleLayout({
  
   return (
     <html lang={locale}>
+      <meta
+          name="google-site-verification"
+          content="aNqozdr0Tpndjd9o5UQlzbbzR7PDAbxetQyNmuk5Zw4"
+        />
       <body>
         <NextIntlClientProvider messages={messages}>
           <div className=' w-full overflow-hidden bg-side text-white'>
