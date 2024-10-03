@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://best-lviv.org.ua
+
+# Sitemaps
+Sitemap: https://best-lviv.org.ua/sitemap.xml
