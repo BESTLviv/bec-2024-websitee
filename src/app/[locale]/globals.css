@@ -140,6 +140,13 @@ body::-webkit-scrollbar-thumb:hover {
   .menu-links .active{
     color: rgba(0, 0, 0, 1);  
   }
+  /* 355 71 */
+  .link__bot{
+    width: calc(200px + 155 * (100vw - 320px) / 1120);
+    height: calc(40px + 25 * (100vw - 320px) / 1120);
+    font-size: calc(16px + 4 * (100vw - 320px) / 1120);
+    margin-top: calc(20px + 0 * (100vw - 320px) / 1120);
+  }
 
 /* --------------------------------------------------AboutEvent----------------------------------------------------------------------------- */
 
