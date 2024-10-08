@@ -11,21 +11,21 @@ import teamvoy from "/public/partners/teamvoy.svg"
 import warbirds from "/public/partners/warbirds.svg"
 import tskt from "/public/partners/tskt.svg"
 import softserve from "/public/partners/softserve.svg"
+import renesans from "/public/partners/renesans.svg"
+import hator from "/public/partners/hator.svg"
+import hamily from "/public/partners/hamily.svg"
+import ilovekebab from "/public/partners/ilovekebab.svg"
 
 const partners: StaticImageData[] = [
     warbirds,
-    leobit,
+    renesans,
     fujikura,
-    tskt,
+    sigma,
     softserve,
     globallogic,
-    teamvoy,
-    dialog,
-    squad,
-    rozkvit,
-    sigma,
-    dataart
-
+    hator,
+    hamily,
+    ilovekebab
 ]
 
 export default partners;
