@@ -13,6 +13,7 @@ import renesans from "/public/partners/renesans.svg"
 import hator from "/public/partners/hator.svg"
 import hamily from "/public/partners/hamily.svg"
 import ilovekebab from "/public/partners/ilovekebab.svg"
+import kernel from "/public/partners/kernel.svg"
 
 const partners: StaticImageData[] = [
     kness,
@@ -26,7 +27,8 @@ const partners: StaticImageData[] = [
     hamily,
     meleto,
     openlab,
-    tech
+    tech,
+    kernel
 ]
 
 export default partners;
